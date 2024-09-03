@@ -1,0 +1,73 @@
+=<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form tag</title>
+  </head>
+  <body>
+    
+    <fieldset>
+    <legend> Personal Details</legend>
+
+    <form action="http://google.com" autocomplete="on" post="">
+      <label for="full"> FirstName</label>
+      <input type="text" name="full" />
+      <br /><br />
+      <label for="Middle">MiddleName:</label>
+      <input type="text" name="Middle" />
+      <br /><br />
+      <label for="Last"> LastName:</label>
+      <input type="text" name="Last" />
+      <br /><br />
+      <label for="course">Course</label>
+      <select name="course" id="">
+        <option value="">Course</option>
+        <option value="">BCA</option>
+        <option value="">BBA</option>
+        <option value="">B.Tech</option>
+        <option value="">MBA</option>
+        <option value="">MCA</option>
+        <option value="">M.Tech</option>
+      </select>
+      <br /><br />
+      <label for="Gender">Gender::-</label>
+      <br />
+      <input type="radio" name="Gender" value="Male" />Male
+      <br />
+      <input type="radio" name="Gender" value="Female" />Female
+      <br />
+      <input type="radio" name="Gender" value="Other" />Other <br /><br />
+      <label for="DOB">DOB</label>
+      <input type="datetime-local" name="DOB" id="" />
+      <br /><br />
+      <label for="Phone">Phone:</label>
+      <input type="text" name="Phone" placeholder="+91" size="3" disabled />
+      <input type="number" name="Phone" id="" /> <br /><br />
+      <label for="Address">Address</label><br>
+      <textarea name="Address" id="" rows="5" cols="45"></textarea>
+      <br /><br />
+      <label for="Email">Email:</label>
+      <input type="email" name="Email" id="" /> <br /><br />
+      <label for="Password">Password:</label>
+      <input type="password" name="Password" id="" /> <br /><br />
+      <label for="Re-Password">Re-type password:</label>
+      <input type="password" name="Re-Password" id="" /> <br /><br />
+      <input type="checkbox" name="terms" id="" />
+      <label for="terms">Agree to terms and conditions</label>
+      <br /><br />
+      <label for="ChooseFile">ChooseFile</label>
+      <input type="file" name="ChooseFile" /> <br /><br />
+      <label for="Choose Colos">Choosee  Colos</label>
+      <img src="./icon16.png"/>
+      <input type="color" name="Choose Colos" id="" /> <br /><br />
+      <input type="submit" name="submit" value="submit" />
+      <input type="reset" name="reset" value="reset" />
+    </fieldset>
+    </form>
+  </body>
+</html>
+
+    </form>
+  </body>
+</html>
